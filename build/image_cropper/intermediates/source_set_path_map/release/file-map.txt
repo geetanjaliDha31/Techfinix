@@ -1,0 +1,20 @@
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-jetified-savedstate-1.1.0-0 C:\Users\DELL\.gradle\caches\transforms-3\03ad3d801cf9eb3d9b077d03a016c2ed\transformed\jetified-savedstate-1.1.0\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-jetified-window-java-1.0.0-beta04-1 C:\Users\DELL\.gradle\caches\transforms-3\18deafea6fd8bd15b4ac488481ce7189\transformed\jetified-window-java-1.0.0-beta04\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-jetified-ucrop-2.2.8-2 C:\Users\DELL\.gradle\caches\transforms-3\7b013e41ce43ac3984086e6a5283ed10\transformed\jetified-ucrop-2.2.8\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-core-1.6.0-3 C:\Users\DELL\.gradle\caches\transforms-3\87955219ada9e4e421baba4d189bfc74\transformed\core-1.6.0\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-lifecycle-runtime-2.3.1-4 C:\Users\DELL\.gradle\caches\transforms-3\90adcf94d9e204827a4772b2cadea454\transformed\lifecycle-runtime-2.3.1\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-fragment-1.3.4-5 C:\Users\DELL\.gradle\caches\transforms-3\92b65e03afc0c4a743e776e7d3a6a560\transformed\fragment-1.3.4\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-appcompat-1.3.0-6 C:\Users\DELL\.gradle\caches\transforms-3\9bd7e7426d4ee9ab7ada8a8e8d3d5325\transformed\appcompat-1.3.0\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-transition-1.4.1-7 C:\Users\DELL\.gradle\caches\transforms-3\ac24d3a9e26633da747c36e5cf83ee42\transformed\transition-1.4.1\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-lifecycle-viewmodel-2.3.1-8 C:\Users\DELL\.gradle\caches\transforms-3\c8cd974390b3139d449efad961aafb6c\transformed\lifecycle-viewmodel-2.3.1\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-jetified-window-1.0.0-beta04-9 C:\Users\DELL\.gradle\caches\transforms-3\cc5bad0ed8e76ce4cfc4c687e304cead\transformed\jetified-window-1.0.0-beta04\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-jetified-appcompat-resources-1.3.0-10 C:\Users\DELL\.gradle\caches\transforms-3\d6ad4c8eebb4185ed2c8ef341d217740\transformed\jetified-appcompat-resources-1.3.0\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-jetified-annotation-experimental-1.1.0-11 C:\Users\DELL\.gradle\caches\transforms-3\f57c9dcbaac671d409c90afd181b1c28\transformed\jetified-annotation-experimental-1.1.0\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-main-12 C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\image_cropper-5.0.1\android\src\main\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-release-13 C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\image_cropper-5.0.1\android\src\release\res
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-pngs-14 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_cropper\generated\res\pngs\release
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-resValues-15 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_cropper\generated\res\resValues\release
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-rs-16 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_cropper\generated\res\rs\release
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-mergeReleaseResources-17 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_cropper\intermediates\incremental\release\mergeReleaseResources\merged.dir
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-mergeReleaseResources-18 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_cropper\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+vn.hunghd.flutter.plugins.imagecropper.image_cropper-merged_res-19 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_cropper\intermediates\merged_res\release

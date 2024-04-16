@@ -1,0 +1,28 @@
+com.pichillilorenzo.flutter_inappwebview-jetified-lifecycle-process-2.4.1-0 C:\Users\DELL\.gradle\caches\transforms-3\17a785215b154e933bc6f0938c7f517a\transformed\jetified-lifecycle-process-2.4.1\res
+com.pichillilorenzo.flutter_inappwebview-jetified-window-java-1.0.0-beta04-1 C:\Users\DELL\.gradle\caches\transforms-3\18deafea6fd8bd15b4ac488481ce7189\transformed\jetified-window-java-1.0.0-beta04\res
+com.pichillilorenzo.flutter_inappwebview-lifecycle-viewmodel-2.5.1-2 C:\Users\DELL\.gradle\caches\transforms-3\1b537705c90b10b179a26720ce2cfa13\transformed\lifecycle-viewmodel-2.5.1\res
+com.pichillilorenzo.flutter_inappwebview-jetified-startup-runtime-1.1.1-3 C:\Users\DELL\.gradle\caches\transforms-3\219c5f2a41b5dac60265514e986d47d0\transformed\jetified-startup-runtime-1.1.1\res
+com.pichillilorenzo.flutter_inappwebview-fragment-1.3.6-4 C:\Users\DELL\.gradle\caches\transforms-3\26730b9d70d012450ab540d604cc31ec\transformed\fragment-1.3.6\res
+com.pichillilorenzo.flutter_inappwebview-swiperefreshlayout-1.1.0-5 C:\Users\DELL\.gradle\caches\transforms-3\54d6d248873ef7f631010e0750807057\transformed\swiperefreshlayout-1.1.0\res
+com.pichillilorenzo.flutter_inappwebview-jetified-emoji2-views-helper-1.2.0-6 C:\Users\DELL\.gradle\caches\transforms-3\61114adbb3304c5f0585a99fcc6d79b4\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.pichillilorenzo.flutter_inappwebview-core-1.8.0-7 C:\Users\DELL\.gradle\caches\transforms-3\653b5a42e3f220545b19dad39d0601cf\transformed\core-1.8.0\res
+com.pichillilorenzo.flutter_inappwebview-jetified-core-ktx-1.8.0-8 C:\Users\DELL\.gradle\caches\transforms-3\6aa8a4ef66516310eec5a68198f28151\transformed\jetified-core-ktx-1.8.0\res
+com.pichillilorenzo.flutter_inappwebview-jetified-appcompat-resources-1.5.1-9 C:\Users\DELL\.gradle\caches\transforms-3\73e9cac6f18bcaa8352e9bbbcd139b45\transformed\jetified-appcompat-resources-1.5.1\res
+com.pichillilorenzo.flutter_inappwebview-appcompat-1.5.1-10 C:\Users\DELL\.gradle\caches\transforms-3\8a67a55dffca64d81d0140e7ccadd870\transformed\appcompat-1.5.1\res
+com.pichillilorenzo.flutter_inappwebview-lifecycle-runtime-2.5.1-11 C:\Users\DELL\.gradle\caches\transforms-3\9059a381ae3b34de1ed833bd89520bc7\transformed\lifecycle-runtime-2.5.1\res
+com.pichillilorenzo.flutter_inappwebview-jetified-emoji2-1.2.0-12 C:\Users\DELL\.gradle\caches\transforms-3\97ad1a071d54533a6fb6c5f7e9c342c4\transformed\jetified-emoji2-1.2.0\res
+com.pichillilorenzo.flutter_inappwebview-jetified-lifecycle-viewmodel-savedstate-2.5.1-13 C:\Users\DELL\.gradle\caches\transforms-3\c09485d02410f6c1e151dfe1a92a214b\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\res
+com.pichillilorenzo.flutter_inappwebview-jetified-window-1.0.0-beta04-14 C:\Users\DELL\.gradle\caches\transforms-3\cc5bad0ed8e76ce4cfc4c687e304cead\transformed\jetified-window-1.0.0-beta04\res
+com.pichillilorenzo.flutter_inappwebview-webkit-1.5.0-15 C:\Users\DELL\.gradle\caches\transforms-3\cfc3d970524f6081beb9868e75dee09c\transformed\webkit-1.5.0\res
+com.pichillilorenzo.flutter_inappwebview-jetified-savedstate-1.2.0-16 C:\Users\DELL\.gradle\caches\transforms-3\dc1c9daf42e448c6a069dd4e4404306c\transformed\jetified-savedstate-1.2.0\res
+com.pichillilorenzo.flutter_inappwebview-lifecycle-livedata-core-2.5.1-17 C:\Users\DELL\.gradle\caches\transforms-3\e36a9e8accbfe518bc7f03fed27aee49\transformed\lifecycle-livedata-core-2.5.1\res
+com.pichillilorenzo.flutter_inappwebview-jetified-activity-1.5.1-18 C:\Users\DELL\.gradle\caches\transforms-3\eab9af2b7feda404d7687927cd8487bf\transformed\jetified-activity-1.5.1\res
+com.pichillilorenzo.flutter_inappwebview-jetified-annotation-experimental-1.1.0-19 C:\Users\DELL\.gradle\caches\transforms-3\f57c9dcbaac671d409c90afd181b1c28\transformed\jetified-annotation-experimental-1.1.0\res
+com.pichillilorenzo.flutter_inappwebview-browser-1.4.0-20 C:\Users\DELL\.gradle\caches\transforms-3\f98d0e7ab72832b497985fca5938d22d\transformed\browser-1.4.0\res
+com.pichillilorenzo.flutter_inappwebview-main-21 C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.8.0\android\src\main\res
+com.pichillilorenzo.flutter_inappwebview-release-22 C:\Users\DELL\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_inappwebview-5.8.0\android\src\release\res
+com.pichillilorenzo.flutter_inappwebview-resValues-23 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_inappwebview\generated\res\resValues\release
+com.pichillilorenzo.flutter_inappwebview-rs-24 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_inappwebview\generated\res\rs\release
+com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-25 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_inappwebview\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.pichillilorenzo.flutter_inappwebview-mergeReleaseResources-26 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_inappwebview\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.pichillilorenzo.flutter_inappwebview-merged_res-27 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_inappwebview\intermediates\merged_res\release

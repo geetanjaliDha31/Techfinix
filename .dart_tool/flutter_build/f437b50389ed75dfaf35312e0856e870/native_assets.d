@@ -1,0 +1,1 @@
+ C:\\Users\\DELL\\OneDrive\\Desktop\\Phaino\ IT\ Solutions\\techfinix\\.dart_tool\\flutter_build\\f437b50389ed75dfaf35312e0856e870\\native_assets.yaml: 

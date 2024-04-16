@@ -1,0 +1,46 @@
+com.example.techfinix.app-jetified-lifecycle-process-2.6.1-0 C:\Users\DELL\.gradle\caches\transforms-3\0e3f1592c55909b7b36d97d9fb3144de\transformed\jetified-lifecycle-process-2.6.1\res
+com.example.techfinix.app-jetified-play-services-auth-20.4.0-1 C:\Users\DELL\.gradle\caches\transforms-3\15095a884e30f998024a308f0104639d\transformed\jetified-play-services-auth-20.4.0\res
+com.example.techfinix.app-jetified-window-java-1.0.0-beta04-2 C:\Users\DELL\.gradle\caches\transforms-3\18deafea6fd8bd15b4ac488481ce7189\transformed\jetified-window-java-1.0.0-beta04\res
+com.example.techfinix.app-jetified-core-ktx-1.10.1-3 C:\Users\DELL\.gradle\caches\transforms-3\1b5287b89e94583549f0228c262c22e9\transformed\jetified-core-ktx-1.10.1\res
+com.example.techfinix.app-jetified-startup-runtime-1.1.1-4 C:\Users\DELL\.gradle\caches\transforms-3\219c5f2a41b5dac60265514e986d47d0\transformed\jetified-startup-runtime-1.1.1\res
+com.example.techfinix.app-fragment-1.3.6-5 C:\Users\DELL\.gradle\caches\transforms-3\26730b9d70d012450ab540d604cc31ec\transformed\fragment-1.3.6\res
+com.example.techfinix.app-jetified-savedstate-1.2.1-6 C:\Users\DELL\.gradle\caches\transforms-3\2e641d49af3b533acacded25b3066ad0\transformed\jetified-savedstate-1.2.1\res
+com.example.techfinix.app-core-runtime-2.2.0-7 C:\Users\DELL\.gradle\caches\transforms-3\433098faae6c15ec0aeb1ebf91f56a13\transformed\core-runtime-2.2.0\res
+com.example.techfinix.app-swiperefreshlayout-1.1.0-8 C:\Users\DELL\.gradle\caches\transforms-3\54d6d248873ef7f631010e0750807057\transformed\swiperefreshlayout-1.1.0\res
+com.example.techfinix.app-jetified-emoji2-views-helper-1.2.0-9 C:\Users\DELL\.gradle\caches\transforms-3\61114adbb3304c5f0585a99fcc6d79b4\transformed\jetified-emoji2-views-helper-1.2.0\res
+com.example.techfinix.app-jetified-appcompat-resources-1.5.1-10 C:\Users\DELL\.gradle\caches\transforms-3\73e9cac6f18bcaa8352e9bbbcd139b45\transformed\jetified-appcompat-resources-1.5.1\res
+com.example.techfinix.app-jetified-play-services-basement-18.1.0-11 C:\Users\DELL\.gradle\caches\transforms-3\773cb09bda204dd03943f3460666760a\transformed\jetified-play-services-basement-18.1.0\res
+com.example.techfinix.app-jetified-ucrop-2.2.8-12 C:\Users\DELL\.gradle\caches\transforms-3\7b013e41ce43ac3984086e6a5283ed10\transformed\jetified-ucrop-2.2.8\res
+com.example.techfinix.app-jetified-annotation-experimental-1.3.0-13 C:\Users\DELL\.gradle\caches\transforms-3\86ba5de534da2badbafa35b7d154c6d1\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.techfinix.app-jetified-play-services-base-18.0.1-14 C:\Users\DELL\.gradle\caches\transforms-3\87be201291530d280ceae08e685fff8e\transformed\jetified-play-services-base-18.0.1\res
+com.example.techfinix.app-appcompat-1.5.1-15 C:\Users\DELL\.gradle\caches\transforms-3\8a67a55dffca64d81d0140e7ccadd870\transformed\appcompat-1.5.1\res
+com.example.techfinix.app-jetified-emoji2-1.2.0-16 C:\Users\DELL\.gradle\caches\transforms-3\97ad1a071d54533a6fb6c5f7e9c342c4\transformed\jetified-emoji2-1.2.0\res
+com.example.techfinix.app-core-1.10.1-17 C:\Users\DELL\.gradle\caches\transforms-3\9d3066008a90d3a18f6e3f60994af8fa\transformed\core-1.10.1\res
+com.example.techfinix.app-jetified-lifecycle-viewmodel-savedstate-2.6.1-18 C:\Users\DELL\.gradle\caches\transforms-3\a21c840773e5d57719d1384b9195fb75\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.1\res
+com.example.techfinix.app-transition-1.4.1-19 C:\Users\DELL\.gradle\caches\transforms-3\ac24d3a9e26633da747c36e5cf83ee42\transformed\transition-1.4.1\res
+com.example.techfinix.app-lifecycle-runtime-2.6.1-20 C:\Users\DELL\.gradle\caches\transforms-3\aca0e6ffceb3e61095fa4b3ab70ca53d\transformed\lifecycle-runtime-2.6.1\res
+com.example.techfinix.app-jetified-activity-1.7.2-21 C:\Users\DELL\.gradle\caches\transforms-3\c79bcbfc6dc54e6e32067d06c58d3f93\transformed\jetified-activity-1.7.2\res
+com.example.techfinix.app-lifecycle-livedata-2.6.1-22 C:\Users\DELL\.gradle\caches\transforms-3\ca15007ceebcb49c03c3edd57abccd25\transformed\lifecycle-livedata-2.6.1\res
+com.example.techfinix.app-jetified-profileinstaller-1.3.0-23 C:\Users\DELL\.gradle\caches\transforms-3\cc4d7398bd222b2001cdc0fffccbf118\transformed\jetified-profileinstaller-1.3.0\res
+com.example.techfinix.app-jetified-window-1.0.0-beta04-24 C:\Users\DELL\.gradle\caches\transforms-3\cc5bad0ed8e76ce4cfc4c687e304cead\transformed\jetified-window-1.0.0-beta04\res
+com.example.techfinix.app-webkit-1.5.0-25 C:\Users\DELL\.gradle\caches\transforms-3\cfc3d970524f6081beb9868e75dee09c\transformed\webkit-1.5.0\res
+com.example.techfinix.app-lifecycle-livedata-core-2.6.1-26 C:\Users\DELL\.gradle\caches\transforms-3\f2077fb7f7abfaf02b8c446bcb63773d\transformed\lifecycle-livedata-core-2.6.1\res
+com.example.techfinix.app-browser-1.4.0-27 C:\Users\DELL\.gradle\caches\transforms-3\f98d0e7ab72832b497985fca5938d22d\transformed\browser-1.4.0\res
+com.example.techfinix.app-lifecycle-viewmodel-2.6.1-28 C:\Users\DELL\.gradle\caches\transforms-3\fa84fb063ccd0d43db153436d263d6f5\transformed\lifecycle-viewmodel-2.6.1\res
+com.example.techfinix.app-debug-29 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\android\app\src\debug\res
+com.example.techfinix.app-main-30 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\android\app\src\main\res
+com.example.techfinix.app-pngs-31 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\app\generated\res\pngs\debug
+com.example.techfinix.app-resValues-32 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\app\generated\res\resValues\debug
+com.example.techfinix.app-rs-33 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\app\generated\res\rs\debug
+com.example.techfinix.app-mergeDebugResources-34 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\app\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.example.techfinix.app-mergeDebugResources-35 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\app\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.example.techfinix.app-merged_res-36 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\app\intermediates\merged_res\debug
+com.example.techfinix.app-packaged_res-37 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\file_picker\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-38 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_inappwebview\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-39 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_keyboard_visibility\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-40 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\flutter_plugin_android_lifecycle\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-41 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_cropper\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-42 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\image_picker_android\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-43 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\path_provider_android\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-44 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\shared_preferences_android\intermediates\packaged_res\debug
+com.example.techfinix.app-packaged_res-45 C:\Users\DELL\OneDrive\Desktop\Phaino IT Solutions\techfinix\build\smart_auth\intermediates\packaged_res\debug
