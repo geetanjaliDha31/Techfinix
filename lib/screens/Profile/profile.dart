@@ -194,8 +194,8 @@ class _ProfilePageState extends State<ProfilePage> {
                     //   ),
                     // ),
                     Container(
-                      height: 55,
-                      width: 55,
+                      height: 80,
+                      width: 80,
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           image: NetworkImage(
@@ -206,6 +206,7 @@ class _ProfilePageState extends State<ProfilePage> {
                         shape: BoxShape.circle,
                       ),
                     ),
+                   
                     Container(
                       height: 20,
                       constraints: const BoxConstraints(
