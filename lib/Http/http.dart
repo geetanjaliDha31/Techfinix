@@ -72,6 +72,7 @@ class HttpApiCall {
         await prefs.setString("name", d['name']);
         await prefs.setString("mobile", d["mobile"]);
         await prefs.setString("email", d["email"]);
+        await prefs.setString("emp_photos", d["emp_photos"]);
         await prefs.setString("designation", d["designation"]);
         await prefs.setString("blood_group", d["blood_group"]);
         const CircularProgressIndicator();

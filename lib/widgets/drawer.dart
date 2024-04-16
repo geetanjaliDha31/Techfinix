@@ -27,6 +27,7 @@ class DrawerWidget extends StatefulWidget {
 
 class _DrawerWidgetState extends State<DrawerWidget> {
   String name = '';
+  String image = '';
   String designation = '';
 
   @override
@@ -40,6 +41,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
     setState(() {
       name = prefs.getString("name") ?? '';
       designation = prefs.getString("designation") ?? '';
+      image = prefs.getString("emp_photos") ?? '';
     });
   }
 
@@ -104,11 +106,15 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                       Container(
                         height: 55,
                         width: 55,
-                        decoration: const BoxDecoration(
-                            image: DecorationImage(
-                                image: AssetImage("assets/profile.jpg"),
-                                fit: BoxFit.cover),
-                            shape: BoxShape.circle),
+                        decoration: BoxDecoration(
+                          image: DecorationImage(
+                            image: NetworkImage(
+                              image,
+                            ),
+                            fit: BoxFit.cover,
+                          ),
+                          shape: BoxShape.circle,
+                        ),
                       ),
                       Container(
                         width: 8,

@@ -1,12 +1,8 @@
-import 'dart:io';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:image_cropper/image_cropper.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sliding_up_panel/sliding_up_panel.dart';
 import 'package:techfinix/constants.dart';
-import 'package:techfinix/img_helper.dart';
 import 'package:techfinix/widgets/announcement.dart';
 import 'package:techfinix/widgets/drawer.dart';
 import 'package:techfinix/widgets/textfield.dart';
@@ -21,8 +17,8 @@ class ProfilePage extends StatefulWidget {
 }
 
 class _ProfilePageState extends State<ProfilePage> {
-  final ImageHelper _imageHelper = ImageHelper();
-  File? _image;
+  // final ImageHelper _imageHelper = ImageHelper();
+  // File? _image;
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
 
   TextEditingController nameController = TextEditingController();
@@ -31,7 +27,7 @@ class _ProfilePageState extends State<ProfilePage> {
   TextEditingController mobileController = TextEditingController();
   TextEditingController designationController = TextEditingController();
   TextEditingController bloodGroupController = TextEditingController();
-
+  String image = '';
   @override
   void initState() {
     super.initState();
@@ -43,7 +39,8 @@ class _ProfilePageState extends State<ProfilePage> {
     setState(() {
       nameController.text = prefs.getString("name") ?? '';
       emailController.text = prefs.getString("email") ?? '';
-      empIdController.text = prefs.getString("emp_id")??'';
+      empIdController.text = prefs.getString("emp_id") ?? '';
+      image = prefs.getString("emp_photos") ?? '';
       mobileController.text = prefs.getString("mobile") ?? '';
       designationController.text = prefs.getString("designation") ?? '';
       bloodGroupController.text = prefs.getString("blood_group") ?? '';
@@ -148,52 +145,65 @@ class _ProfilePageState extends State<ProfilePage> {
                         minHeight: 20,
                       ),
                     ),
-                    InkWell(
-                      onTap: () async {
-                        final file = await _imageHelper.getImage();
-                        if (file != null) {
-                          final cropped = await _imageHelper.crop(
-                              file, CropStyle.rectangle);
-                          if (cropped != null) {
-                            setState(() {
-                              _image = cropped;
-                            });
-                          }
-                        }
-                      },
-                      child: Stack(
-                        children: [
-                          FittedBox(
-                            fit: BoxFit.contain,
-                            child: CircleAvatar(
-                                backgroundColor: color1,
-                                radius: 43,
-                                foregroundImage:
-                                    _image != null ? FileImage(_image!) : null,
-                                child: const Icon(
-                                  Icons.person,
-                                  color: Colors.white,
-                                  size: 60,
-                                )),
+                    // InkWell(
+                    //   onTap: () async {
+                    //     final file = await _imageHelper.getImage();
+                    //     if (file != null) {
+                    //       final cropped = await _imageHelper.crop(
+                    //           file, CropStyle.rectangle);
+                    //       if (cropped != null) {
+                    //         setState(() {
+                    //           _image = cropped;
+                    //         });
+                    //       }
+                    //     }
+                    //   },
+                    //   child: Stack(
+                    //     children: [
+                    //       FittedBox(
+                    //         fit: BoxFit.contain,
+                    //         child: CircleAvatar(
+                    //             backgroundColor: color1,
+                    //             radius: 43,
+                    //             foregroundImage:
+                    //                 _image != null ? FileImage(_image!) : null,
+                    //             child: const Icon(
+                    //               Icons.person,
+                    //               color: Colors.white,
+                    //               size: 60,
+                    //             )),
+                    //       ),
+                    //       Positioned(
+                    //         bottom: 0,
+                    //         right: 0,
+                    //         child: Container(
+                    //           height: 28,
+                    //           width: 28,
+                    //           alignment: Alignment.center,
+                    //           decoration: BoxDecoration(
+                    //               color: black2,
+                    //               borderRadius: BorderRadius.circular(8)),
+                    //           child: const Icon(
+                    //             Icons.edit,
+                    //             color: Colors.white,
+                    //             size: 20,
+                    //           ),
+                    //         ),
+                    //       )
+                    //     ],
+                    //   ),
+                    // ),
+                    Container(
+                      height: 55,
+                      width: 55,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: NetworkImage(
+                            image,
                           ),
-                          Positioned(
-                            bottom: 0,
-                            right: 0,
-                            child: Container(
-                              height: 28,
-                              width: 28,
-                              alignment: Alignment.center,
-                              decoration: BoxDecoration(
-                                  color: black2,
-                                  borderRadius: BorderRadius.circular(8)),
-                              child: const Icon(
-                                Icons.edit,
-                                color: Colors.white,
-                                size: 20,
-                              ),
-                            ),
-                          )
-                        ],
+                          fit: BoxFit.cover,
+                        ),
+                        shape: BoxShape.circle,
                       ),
                     ),
                     Container(
