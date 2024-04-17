@@ -50,7 +50,6 @@ class HttpApiCall {
       "email": data['email'],
       'password': data['password'],
     });
-
     http.StreamedResponse response = await request.send();
     var responsedata = await http.Response.fromStream(response);
 
@@ -84,7 +83,7 @@ class HttpApiCall {
     }
   }
 
- Future<void> deleteAccount(BuildContext context) async {
+  Future<void> deleteAccount(BuildContext context) async {
     String empId = await retrieveEmpId();
 
     var request =
@@ -116,7 +115,6 @@ class HttpApiCall {
       print(response.reasonPhrase);
     }
   }
-
 
   Future<void> forgetPassword(
       BuildContext context, Map<String, dynamic> data) async {
@@ -524,7 +522,7 @@ class HttpApiCall {
     return null;
   }
 
-  Future<GetSalaryList?> getSalaryList() async {
+  Future<GetSalaryList?> getSalaryList(Map<String, dynamic> data) async {
     String empId = await retrieveEmpId();
 
     var request = http.MultipartRequest(
@@ -532,6 +530,7 @@ class HttpApiCall {
     request.fields.addAll({
       'API_KEY': apikey,
       'emp_id': empId,
+      'year': data['year'],
     });
 
     http.StreamedResponse response = await request.send();

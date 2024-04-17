@@ -85,9 +85,8 @@ class _HomePageState extends State<HomePage> {
   //   }
   // ];
 
- 
- final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
- 
+  final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -181,6 +180,7 @@ class _HomePageState extends State<HomePage> {
                   initialDate: DateTime.now(),
                   onDateChange: (selectedDate) {
                     //`selectedDate` the new date selected.
+                    print(selectedDate);
                   },
                   headerProps: const EasyHeaderProps(
                     // showHeader: false,
@@ -339,47 +339,60 @@ class _HomePageState extends State<HomePage> {
                         builder: (context, snapshot) {
                           if (snapshot.hasData) {
                             GetTodaysAttendance data = snapshot.data!;
-                            final details = data.resultArray![0];
-                            List<Map<String, dynamic>> attendanceCard = [
-                              {
-                                'context': 'Punch In',
-                                'time': details.punchInArray![0].punchIn,
-                                'remark': details.punchInArray![0].status,
-                                "isLate": "yes"
-                              },
-                              {
-                                'context': 'Punch Out',
-                                'time': details.punchOutArray![0].punchOut,
-                                'remark': details.punchOutArray![0].status,
-                                "onTime": "yes"
-                              },
-                              {
-                                'context': 'Total Hours',
-                                'time': details.totalHoursArray![0].totalHours,
-                                "remark": "Working Hours",
-                              },
-                              {
-                                "context": "Weekly Hours",
-                                "time": "45h 31m",
-                                "remark": "Working Hours",
-                              }
-                            ];
+                            if (data.resultArray != null &&
+                                data.resultArray!.isNotEmpty) {
+                              final details = data.resultArray![0];
+                              final punchInData = details.punchInArray ?? [];
+                              final punchOutData = details.punchOutArray ?? [];
+                              final totalHours = details.totalHoursArray ?? [];
 
-                            return GridView.builder(
-                              shrinkWrap: true,
-                              physics: const NeverScrollableScrollPhysics(),
-                              gridDelegate:
-                                  const SliverGridDelegateWithFixedCrossAxisCount(
-                                crossAxisCount: 2,
-                                mainAxisSpacing: 20,
-                                crossAxisSpacing: 20,
-                                childAspectRatio: 139 / 90,
-                              ),
-                              itemCount: attendanceCard.length,
-                              itemBuilder: (context, index) {
-                                return AttendanceCardHome(
-                                    data: attendanceCard[index]);
-                              },
+                              // Check if lists are not empty before accessing index 0
+                              if (punchInData.isNotEmpty &&
+                                  punchOutData.isNotEmpty &&
+                                  totalHours.isNotEmpty) {
+                                List<Map<String, dynamic>> attendanceCard = [
+                                  {
+                                    'context': 'Punch In',
+                                    'time': punchInData[0].punchIn ?? '-',
+                                    'remark': punchInData[0].status ?? '-',
+                                    "isLate": "yes"
+                                  },
+                                  {
+                                    'context': 'Punch Out',
+                                    'time': punchOutData[0].punchOut ?? '-',
+                                    'remark': punchOutData[0].status ?? '-',
+                                    "onTime": "yes"
+                                  },
+                                  {
+                                    'context': 'Total Hours',
+                                    'time': totalHours[0].totalHours ?? '-',
+                                    "remark": "Working Hours",
+                                  },
+                                ];
+
+                                // Return GridView with data
+                                return GridView.builder(
+                                  shrinkWrap: true,
+                                  physics: const NeverScrollableScrollPhysics(),
+                                  gridDelegate:
+                                      const SliverGridDelegateWithFixedCrossAxisCount(
+                                    crossAxisCount: 2,
+                                    mainAxisSpacing: 20,
+                                    crossAxisSpacing: 20,
+                                    childAspectRatio: 139 / 90,
+                                  ),
+                                  itemCount: attendanceCard.length,
+                                  itemBuilder: (context, index) {
+                                    return AttendanceCardHome(
+                                      data: attendanceCard[index],
+                                    );
+                                  },
+                                );
+                              }
+                            }
+                            // If any of the arrays are empty, show NoDataPage()
+                            return Image.asset(
+                              'assets/no_data.png',
                             );
                           } else if (snapshot.hasError) {
                             return const Text(
@@ -390,9 +403,10 @@ class _HomePageState extends State<HomePage> {
                               ),
                             );
                           } else {
-                            return Center(
-                              child: const CircularProgressIndicator(),
-                            );
+                            // return Center(
+                            //   child: const CircularProgressIndicator(),
+                            // );
+                            return SizedBox();
                           }
                         },
                       ),

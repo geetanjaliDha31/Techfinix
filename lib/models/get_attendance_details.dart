@@ -6,6 +6,7 @@ GetAttendanceDetails GetAttendanceDetailsFromJson(String str) =>
 String GetAttendanceDetailsToJson(GetAttendanceDetails data) =>
     json.encode(data.toJson());
 
+
 class GetAttendanceDetails {
     String? response;
     bool? error;
@@ -37,13 +38,17 @@ class ResultArray {
     String? punchIn;
     String? punchOut;
     String? date;
+    String? punchInRemark;
+    String? punchOutRemark;
 
-    ResultArray({this.punchIn, this.punchOut, this.date});
+    ResultArray({this.punchIn, this.punchOut, this.date, this.punchInRemark, this.punchOutRemark});
 
     ResultArray.fromJson(Map<String, dynamic> json) {
         punchIn = json["punch_in"];
         punchOut = json["punch_out"];
         date = json["date"];
+        punchInRemark = json["punch_in_remark"];
+        punchOutRemark = json["punch_out_remark"];
     }
 
     Map<String, dynamic> toJson() {
@@ -51,6 +56,8 @@ class ResultArray {
         _data["punch_in"] = punchIn;
         _data["punch_out"] = punchOut;
         _data["date"] = date;
+        _data["punch_in_remark"] = punchInRemark;
+        _data["punch_out_remark"] = punchOutRemark;
         return _data;
     }
 }

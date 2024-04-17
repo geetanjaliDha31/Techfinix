@@ -343,35 +343,29 @@ class _MonthlyAttendanceState extends State<MonthlyAttendance> {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.end,
                                 children: [
-                                  InkWell(
-                                    onTap: () {
-                                      print(selectedMonth);
-                                      print(selectedYear);
-                                    },
-                                    child: Row(
-                                      children: [
-                                        Text(
-                                          'On Time',
-                                          style: GoogleFonts.inter(
-                                            fontSize: 14,
-                                            fontWeight: FontWeight.w500,
-                                            color: Colors.black,
-                                          ),
+                                  Row(
+                                    children: [
+                                      Text(
+                                        'On Time',
+                                        style: GoogleFonts.inter(
+                                          fontSize: 14,
+                                          fontWeight: FontWeight.w500,
+                                          color: Colors.black,
                                         ),
-                                        const SizedBox(
-                                          width: 4,
+                                      ),
+                                      const SizedBox(
+                                        width: 4,
+                                      ),
+                                      Container(
+                                        height: 14,
+                                        width: 14,
+                                        decoration: BoxDecoration(
+                                          color: green1,
+                                          borderRadius:
+                                              BorderRadius.circular(4),
                                         ),
-                                        Container(
-                                          height: 14,
-                                          width: 14,
-                                          decoration: BoxDecoration(
-                                            color: green1,
-                                            borderRadius:
-                                                BorderRadius.circular(4),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
+                                      ),
+                                    ],
                                   ),
                                   const SizedBox(
                                     height: 6,
@@ -427,6 +421,10 @@ class _MonthlyAttendanceState extends State<MonthlyAttendance> {
                                           .parse(attendance[i].punchIn ?? ''),
                                       'punch_out': DateFormat("hh:mm a")
                                           .parse(attendance[i].punchOut ?? ''),
+                                      'punch_in_remark':
+                                          attendance[i].punchInRemark ?? '',
+                                      'punch_out_remark':
+                                          attendance[i].punchOutRemark ?? '',
                                     },
                                   );
                                 }
@@ -543,16 +541,19 @@ class _MonthlyAttendanceState extends State<MonthlyAttendance> {
     TimeOfDay punchInTimeOfDay = TimeOfDay.fromDateTime(punchInTime);
     TimeOfDay punchOutTimeOfDay = TimeOfDay.fromDateTime(punchOutTime);
 
-    int punchInMinutes = punchInTimeOfDay.hour * 60 + punchInTimeOfDay.minute;
-    int punchOutMinutes =
-        punchOutTimeOfDay.hour * 60 + punchOutTimeOfDay.minute;
+    // int punchInMinutes = punchInTimeOfDay.hour * 60 + punchInTimeOfDay.minute;
+    // int punchOutMinutes =
+    //     punchOutTimeOfDay.hour * 60 + punchOutTimeOfDay.minute;
 
-    int latepunchInMinutes = 9 * 60 + 45; // 9:45 AM in minutes since midnight
-    int earlypunchOutMinutes = 7 * 60 + 00; // 7:00 PM in minutes since midnight
+    // int latepunchInMinutes = 9 * 60 + 45; // 9:45 AM in minutes since midnight
+    // int earlypunchOutMinutes = 7 * 60 + 00; // 7:00 PM in minutes since midnight
 
-    Color punchInColor = punchInMinutes > latepunchInMinutes ? red2 : green1;
-    Color punchOutColor =
-        punchOutMinutes < earlypunchOutMinutes ? red2 : green1;
+    // Color punchInColor = punchInMinutes > latepunchInMinutes ? red2 : green1;
+    // Color punchOutColor =
+    //     punchOutMinutes < earlypunchOutMinutes ? red2 : green1;
+
+    Color punchInColor = data['punch_in_remark'] == "On Time" ? green1 : red2;
+    Color punchOutColor = data['punch_out_remark'] == "Late" ? red2 : green1;
 
     String punchInTimeStr = DateFormat.jm().format(
         DateTime(2024, 1, 1, punchInTimeOfDay.hour, punchInTimeOfDay.minute));
